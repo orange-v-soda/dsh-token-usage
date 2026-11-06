@@ -2,7 +2,16 @@
 
 简单美观的token用量展示插件
 
-安装：在插件管理器的目标里填 `github:orange-v-soda/dsh-token-usage`，或 `@orange-v-soda/dsh-token-usage`（npm）。
+## 安装
+
+在插件管理器的目标里填任意一个：
+
+```
+@orange-v-soda/dsh-token-usage          # npm
+github:orange-v-soda/dsh-token-usage    # GitHub
+```
+
+npm 包：https://www.npmjs.com/package/@orange-v-soda/dsh-token-usage
 
 ## 适配的需求
 
