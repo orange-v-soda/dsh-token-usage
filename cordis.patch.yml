@@ -1,0 +1,7 @@
+# Today's token usage: Host half aggregates the day's assistant usage from the
+# session corpus and serves it at /api/dsh-token-usage/today; the Client half
+# renders it at the sidebar foot.
+- insert:
+    - id: token-usage-today
+      name: '@orange-v-soda/dsh-token-usage'
+      config: {}

@@ -1,0 +1,48 @@
+{
+  "name": "@orange-v-soda/dsh-token-usage",
+  "version": "0.1.0",
+  "description": "Today's token usage and cache hit rate in the DeepSeek Harness sidebar, with a per-model breakdown.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "docs"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "token",
+    "usage",
+    "cache"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orange-v-soda/dsh-token-usage.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "engines": {
+      "dsh": ">=0.2.1-rc.2"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

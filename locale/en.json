@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Token Usage Today",
+    "description": "Shows today's total token usage and cache hit rate at the bottom-left of the sidebar."
+  }
+}

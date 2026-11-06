@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "今日 Token 用量",
+    "description": "在侧边栏左下角显示今日 token 总量与缓存命中率。"
+  }
+}
