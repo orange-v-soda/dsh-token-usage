@@ -1,13 +1,14 @@
 {
   "name": "@orange-v-soda/dsh-token-usage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Today's token usage and cache hit rate in the DeepSeek Harness sidebar, with a per-model breakdown.",
   "type": "module",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
     "./locale/*.json": "./locale/*.json",
-    "./icon": "./icon.png"
+    "./icon": "./icon.png",
+    "./package.json": "./package.json"
   },
   "icon": "./icon.png",
   "files": [
