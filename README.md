@@ -1,22 +1,21 @@
-# dsh-token-usage
+# <img src="icon.png" width="32" align="middle" alt="" /> dsh-token-usage
 
-简单美观的token用量展示插件
+一款简单美观的token用量展示的dsh插件
 
 ## 安装
 
-在插件管理器的目标里填任意一个：
+可通过npm和github两种方式进行安装：
 
 ```
 @orange-v-soda/dsh-token-usage          # npm
 github:orange-v-soda/dsh-token-usage    # GitHub
 ```
 
-npm 包：https://www.npmjs.com/package/@orange-v-soda/dsh-token-usage
-
-## 适配的需求
-
+## 什么时候需要？
+如果您：
 - 希望简单，美观的每日token用量统计，缓存比例
 - 想看到近期的用量，模型占比
+那么本插件或许能有帮助
 
 ## 效果
 
@@ -26,7 +25,7 @@ npm 包：https://www.npmjs.com/package/@orange-v-soda/dsh-token-usage
 
 ## 技术说明
 
-[docs/technical.md](docs/technical.md) —— 数据来源、聚合算法、增量缓存策略、接口契约与渲染结构。建议交给agent阅读。
+[docs/technical.md](docs/technical.md) —— 技术文档细致的说明了：数据来源、聚合算法、增量缓存策略、接口契约与渲染结构。建议交给agent阅读。
 
 ## 声明
 
